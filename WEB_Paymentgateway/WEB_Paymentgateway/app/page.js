@@ -51,7 +51,7 @@ export default function SelectItemPage() {
             <button type="button" aria-label="Menu" className="rounded-lg bg-surface p-2 text-ink">
               <MenuIcon className="h-5 w-5" />
             </button>
-            <span className="text-lg font-extrabold tracking-tight text-brand">Warung Kita</span>
+            <span className="text-lg font-extrabold tracking-tight text-brand">whelen_ion</span>
           </div>
           <Link href="/checkout" aria-label={`Keranjang, ${count} item`} className="relative rounded-lg p-2 text-ink">
             <CartIcon className="h-6 w-6" />

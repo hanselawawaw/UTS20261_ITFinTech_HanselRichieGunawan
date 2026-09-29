@@ -10,6 +10,35 @@
   --color-surface: #f4f7f5;
   --color-accent: #f2b705;
   --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}@import "tailwindcss";
+
+@theme {
+  --color-brand: #5b2be0;       /* ungu anggur: tombol, harga, tab aktif */
+  --color-brand-dark: #4520b3;  /* ungu gelap: hover tombol */
+  --color-brand-soft: #efe9ff;  /* ungu muda: kotak gambar produk, pilihan aktif */
+  --color-ink: #1d1530;         /* teks utama */
+  --color-muted: #6e6480;       /* teks sekunder */
+  --color-line: #e7e2f0;        /* garis & border */
+  --color-surface: #f6f4fa;     /* latar belakang luar */
+  --color-accent: #ff7a30;      /* oranye: badge keranjang & status */
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
 }
 
 body {

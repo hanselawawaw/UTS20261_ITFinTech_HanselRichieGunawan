@@ -8,8 +8,8 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
-  title: "WEB_Paymentgateway",
-  description: "Sistem pembayaran dengan payment gateway Xendit",
+  title: "whelen_ion",
+  description: "whelen_ion — pesan makanan & minuman, bayar pakai Xendit",
 };
 
 export default function RootLayout({ children }) {

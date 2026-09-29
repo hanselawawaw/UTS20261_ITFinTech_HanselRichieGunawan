@@ -56,7 +56,7 @@ export async function POST(req) {
       amount,
       currency: "IDR",
       payer_email: address.email,
-      description: `Pembayaran pesanan #${orderCode}`,
+      description: `whelen_ion - Pesanan #${orderCode}`,
       invoice_duration: 86400, // 24 jam
       success_redirect_url: `${baseUrl}/status/${checkout._id}`,
       failure_redirect_url: `${baseUrl}/status/${checkout._id}`,
